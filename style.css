@@ -1,0 +1,71 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+#clockContainer{
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background: url(clock.png);
+    width: 40vw;
+    height: 40vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+#dial, #hour, #minute, #second, #cDate{
+    position: absolute;
+    border-radius: 15%;
+    background-color: black;
+    transform-origin: bottom;
+}
+#dial{
+    z-index: 1;
+    background-color: gray;
+    height: 7%;
+    width: 7%;
+    border-radius: 50%;
+    top: 50%;
+    left: 47.52%;
+}
+#hour{    
+    background-color: rgb(214, 216, 78);
+    opacity: 0.8;
+    width: 2%;
+    height: 24%;
+    top: 30%;
+    left: 50%;
+}
+#minute{    
+    background-color: rgb(185, 100, 255);
+    opacity: 0.8;
+    width: 1.8%;
+    height: 34%;
+    left: 50%;
+    top: 20%;
+}
+#second{   
+    background-color: rgb(105, 255, 105);
+    opacity: 0.8;
+    width: 1%;
+    height: 42%;
+    left: 50.5%;
+    top: 12%;
+}
+#cDate{
+    background-color: rgb(66, 216, 171);
+    color:rgb(219, 205, 205);
+    width: 26%;
+    height: 9%;
+    top: 66%;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    font-size: 125%;
+}
