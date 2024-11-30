@@ -21,7 +21,6 @@ body{
     border-radius: 15%;
     background-color: black;
     transform-origin: bottom;
-    font-size: 4px;
 }
 #dial{
     z-index: 1;
@@ -68,5 +67,5 @@ body{
     align-items: center;
 }
 #text{
-    font-size: 125%;
+    font-size: 85%;
 }
